@@ -1,9 +1,17 @@
 {
 	// Cho 2 số a và b. In ra số lớn hơn 
 	let a = 10;
-	let b = 5;
+	let b = 10;
 
-	var result = 0;
+	var result = "";
+	if(a > b){
+		result = a
+	}
+	if(b > a){
+		result = b
+	}if(a == b){
+		result = a
+	}
 	// gán số lớn hơn vào result
 
 
