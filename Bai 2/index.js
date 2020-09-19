@@ -61,7 +61,7 @@
 	var result = "";
 	// gán số nhỏ nhất vào result
 	for (let i = 0; i < list.length; i++) {
-		if (result < list[i]) {
+		if (result > list[i]) {
 			result = list[i]
 			
 		}
