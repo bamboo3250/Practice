@@ -1,7 +1,8 @@
 
 // https://open.kattis.com/problems/r2
 function main(R1, S) {
-	
+	var R2 = (S * 2) - R1
+	console.log(R2)
 }
 
 if (typeof process === 'object') { // running on node.js
@@ -11,5 +12,5 @@ if (typeof process === 'object') { // running on node.js
 		main(parseInt(tokens[0]), parseInt(tokens[1]));
 	});
 } else {	// running on browser
-	main(11, 15);
+	main(4, 3);
 }

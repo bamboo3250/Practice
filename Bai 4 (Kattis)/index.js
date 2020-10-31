@@ -1,6 +1,11 @@
-
-// https://open.kattis.com/problems/timeloop
+t
+// htps://open.kattis.com/problems/timeloop
 function main(N) {
+	for (let i = 1 ; i <= N; i++) {
+		console.log(i + ' Abracadabra');
+		
+	}
+	
 	
 }
 
@@ -10,5 +15,5 @@ if (typeof process === 'object') {
 		main(parseInt(line));
 	});
 } else {	// running on browser
-	main(5);
+	main(10);
 }

@@ -1,7 +1,15 @@
 
 // https://open.kattis.com/problems/oddities
 function main(n, list) {
-	
+	for (let i = 0; i < list.length; i++) {
+		if(list[i] % 2 == 0){
+			console.log(list[i] + ' is even')
+		}else{
+			console.log(list[i] + ' is odd')
+		}
+		
+	}
+
 }
 
 if (typeof process === 'object') { // running on node.js
