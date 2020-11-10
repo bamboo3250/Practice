@@ -2,6 +2,16 @@
 // https://open.kattis.com/problems/sibice
 function main(N, W, H, matches) {
 	
+	var D = Math.sqrt((W * W) + (H * H))
+	for (let i = 0; i < matches.length; i++) {
+			if(matches[i] <= D){
+				console.log('DA')
+			}else{ 
+				console.log('NE')
+			}
+		
+	}
+
 }
 
 if (typeof process === 'object') { // running on node.js

@@ -1,7 +1,14 @@
 
 // https://open.kattis.com/problems/tarifa
 function main(X, N, P) {
-	
+	var a = 0
+	for (let i = 0; i < P.length; i++) {
+		var result = X - P[i]
+		a += result
+		
+	}
+	X += a
+	console.log(X)
 }
 
 if (typeof process === 'object') { // running on node.js
